@@ -4,10 +4,10 @@ const TagBackground = (tag) => {
       case `learning environment`:
         bgColor = `#D50000`
         break;
-      case `learning science`:
+      case `analytics`:
         bgColor = `#C51162`
         break;
-      case `myth busting`:
+      case `instructional strategy`:
         bgColor = `#AA00FF`
         break;
       case `performance support`:
@@ -19,16 +19,16 @@ const TagBackground = (tag) => {
       case `cognition`:
         bgColor = `#2962FF`
         break;
-      case `evaluation`:
+      case `assessment`:
         bgColor = `#0091EA`
         break;
-      case `learning culture`:
+      case `practice`:
         bgColor = `#00B8D4`
         break;
       case `media`:
         bgColor = `#00BFA5`
         break;
-      case `academia`:
+      case `higher ed`:
         bgColor = `#00C853`
         break;
       case `corporate`:
