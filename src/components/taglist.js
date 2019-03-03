@@ -12,17 +12,17 @@ import TagBackground from "../utils/tag-background"
 
 const TagStyle = {
   display: `flex`,
-  justifyContent: `space-between`,
+  justifyContent: `center`,
   flexWrap: `wrap`,
-  listStyle: `none`
+  listStyle: `none`,
+  margin: `0`
   
 }
 
 const LinkStyle = {
   textDecoration: `none`,
   color: `#000`,
-  boxShadow: `none`
-
+  boxShadow: `none`,
 }
 
 const AllTags = ({

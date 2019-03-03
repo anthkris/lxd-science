@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `LX Science`,
+    title: `LX Research`,
     author: `Kristin Anthony`,
     description: `Research on learning experiences`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    siteUrl: `https://lx-research.netlify.com/`,
     social: {
       twitter: `anthkris`,
     },

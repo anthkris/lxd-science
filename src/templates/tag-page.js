@@ -33,7 +33,7 @@ const Tags = ({ pageContext, data }) => {
   const h2 = {
     fontFamily: `Montserrat,sans-serif`,
     textTransform: `capitalize`,
-    fontSize: rhythm(2)
+    fontSize: rhythm(1.7)
   }
 
 
@@ -70,14 +70,16 @@ const Tags = ({ pageContext, data }) => {
                 />
               </a>
               <p  style={ParagraphyStyle, PublicationStyle}>{node.frontmatter.publication}</p>
-              {tags.length > 0 ? tags.map((tag, index)=> {
-                  let style = TagBackground(tag);
-                  let tagHyphen = tag.replace(/' '/gi, '-')
-                  return (<Link 
-                            to={`/tags/${kebabCase(tagHyphen)}/`} 
-                            key={index} 
-                            style={LinkColor, style}>{tag}</Link>)
-                }) : null}
+              <div style={{display: "flex", flexWrap: "wrap"}}>
+                {tags.length > 0 ? tags.map((tag, index)=> {
+                    let style = TagBackground(tag);
+                    let tagHyphen = tag.replace(/' '/gi, '-')
+                    return (<Link 
+                              to={`/tags/${kebabCase(tagHyphen)}/`} 
+                              key={index} 
+                              style={LinkColor, style}>{tag}</Link>)
+                  }) : null}
+              </div>
             </div>
           )
         })}

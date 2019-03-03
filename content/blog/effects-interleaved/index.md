@@ -1,6 +1,6 @@
 ---
 title: "The Effects of Interleaved Practice"
-tags: ["practice", "K12", "assessment"]
+tags: ["practice", "k-12", "assessment"]
 url: "https://www.researchgate.net/publication/227530785_The_Effects_of_Interleaved_Practice"
 date: "2019-03-01"
 description: Children practiced four kinds of mathematics problems in an order that was interleaved or blocked, and the degree of spacing was fixed. Interleaving of practice impaired practice session performance yet doubled scores on a test given one day later. An analysis of the errors suggested that interleaving boosted test scores by improving participants' ability to pair each problem with the appropriate procedure. 

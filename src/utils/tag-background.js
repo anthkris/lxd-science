@@ -2,46 +2,46 @@ const TagBackground = (tag) => {
     let bgColor;
     switch(tag) {
       case `learning environment`:
-        bgColor = `#D50000`
+        bgColor = `#E57373`
         break;
       case `analytics`:
-        bgColor = `#C51162`
+        bgColor = `#F06292`
         break;
       case `instructional strategy`:
-        bgColor = `#AA00FF`
+        bgColor = `#CE93D8`
         break;
       case `performance support`:
-        bgColor = `#6200EA`
+        bgColor = `#B39DDB`
         break;
       case `memory`:
-        bgColor = `#304FFE`
+        bgColor = `#9FA8DA`
         break;
       case `cognition`:
-        bgColor = `#2962FF`
+        bgColor = `#2196F3`
         break;
       case `assessment`:
-        bgColor = `#0091EA`
+        bgColor = `#039BE5`
         break;
       case `practice`:
-        bgColor = `#00B8D4`
+        bgColor = `#00ACC1`
         break;
       case `media`:
-        bgColor = `#00BFA5`
+        bgColor = `#4DB6AC`
         break;
       case `higher ed`:
-        bgColor = `#00C853`
+        bgColor = `#4CAF50`
         break;
       case `corporate`:
-        bgColor = `#4DD17`
+        bgColor = `#8BC34A`
         break;
-      case `k12`:
-        bgColor = `#AEEA00`
+      case `k-12`:
+        bgColor = `#FFEB3B`
         break;
       case `technology`:
-        bgColor = `#DD2C00`
+        bgColor = `#FF9800`
         break;
       default:
-        bgColor = `#263238`
+        bgColor = `#BCAAA4`
     }
     return { 
       padding: `0.4rem`,
@@ -52,7 +52,9 @@ const TagBackground = (tag) => {
       fontWeight: `bold`,
       background: bgColor,
       color: `#000000`,
-      boxShadow: `none`
+      boxShadow: `none`,
+      whiteSpace: `nowrap`,
+      marginBottom: `0.6rem`
     };
   }
 

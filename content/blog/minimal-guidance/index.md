@@ -1,6 +1,6 @@
 ---
 title: "Why Minimal Guidance During Instruction Does Not Work: An Analysis of the Failure of Constructivist, Discovery, Problem-Based, Experiential, and Inquiry-Based Teaching"
-tags: ["instructional strategy", "cognition", "k12"]
+tags: ["instructional strategy", "cognition", "k-12"]
 url: "https://www.tandfonline.com/doi/pdf/10.1207/s15326985ep4102_1?needAccess=true&"
 date: "2019-03-01"
 description: Although unguided or minimally guided instructional approaches are very popular and intuitively appealing, these approaches ignore both the structures that constitute human cognitive architecture and evidence from empirical studies over the past half-century that consistently indicate that minimally guided instruction is less effective and less efficient than instructional approaches that place a strong emphasis on guidance of the student learning process.

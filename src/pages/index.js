@@ -57,10 +57,12 @@ class BlogIndex extends React.Component {
                 />
               </a>
               <p style={ParagraphyStyle, PublicationStyle}>{node.frontmatter.publication}</p>
-              {tags.length > 0 ? tags.map((tag, index)=> {
-                  let style = TagBackground(tag);
-                  return (<span key={index} style={style}>{tag}</span>)
-                }) : null}
+              <div style={{display: "flex", flexWrap: "wrap"}}>
+                {tags.length > 0 ? tags.map((tag, index)=> {
+                    let style = TagBackground(tag);
+                    return (<span key={index} style={style}>{tag}</span>)
+                  }) : null}
+              </div>
             </div>
           )
         })}
