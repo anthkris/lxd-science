@@ -3,7 +3,7 @@ title: "Success factors for serious games to enhance learning: a systematic revi
 tags: ["media", "practice", "instructional strategy"]
 url: "http://karlkapp.com/research-article-success-factors-for-serious-games-to-enhance-learning-a-systematic-review/"
 date: "2019-03-02"
-description: Reveals five central serious game themes: backstory and production; realism; artificial intelligence and adaptivity; interaction; and feedback and debriefing, all of which require deliberate intertwining with pedagogical content to ensure successful learning.
+description: "Reveals five central serious game themes: backstory and production; realism; artificial intelligence and adaptivity; interaction; and feedback and debriefing, all of which require deliberate intertwining with pedagogical content to ensure successful learning."
 publication: "Virtual Reality, 21(1), 31–58"
 ---
 
