@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 
 const FooterStyle = {
 	background: `#212121`,
@@ -18,7 +19,7 @@ const LinkStyle = {
 const Footer = () => {
 	return(
 		<div style={FooterStyle}>
-			<a style={LinkStyle} href="">About</a>
+			<Link style={LinkStyle} to="/about">About</Link>
 		</div>
 	)
 }
